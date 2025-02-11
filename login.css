@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 450px;
+    text-align: center;
+    flex-direction: row;
+}
+
+.logo{
+    width: 150px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 26px;
+    margin: 10px;
+}
+.text{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.forgot{
+    display: block;
+    font-size: 16px;
+    color:#1a73e8;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.infor-text{
+    font-size:12px;
+    color: gray;
+}
+.learn-more{
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 16px;
+}
+.button{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.create-account{
+    font-size: 16px;
+    color: #1a73e8;
+    text-decoration: none;
+    text-align: left;
+}
+.next{
+    background-color: #1a73e8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.next:hover{
+    background-color: #1558b0;
+}
